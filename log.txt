@@ -21,3 +21,8 @@
 2024-08-20T12:46:25.132Z GET / ::1 New Request Received
 2024-08-20T12:49:27.581Z GET / ::1 New Request Received
 2024-08-20T12:49:29.326Z GET / ::1 New Request Received
+2024-08-20T12:51:18.107Z GET / ::1 New Request Received
+2024-08-20T12:51:24.494Z GET / ::1 New Request Received
+2024-08-20T12:51:28.916Z GET / ::ffff:127.0.0.1 New Request Received
+2024-08-20T12:51:37.557Z GET /api ::1 New Request Received
+2024-08-20T12:51:37.594Z GET /favicon.ico ::1 New Request Received
