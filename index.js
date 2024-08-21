@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: process.env.BASE_URL || "http://localhost:3000", // Dynamically set origin
+    origin: process.env.BASE_URL || "https://selectivesystems.in", // Dynamically set origin
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type",
   })
