@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: "http://localhost:3000", // Allow requests from the React frontend
+    origin: process.env.BASE_URL || "http://localhost:3000", // Dynamically set origin
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: "Content-Type",
   })
